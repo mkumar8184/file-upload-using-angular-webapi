@@ -1,0 +1,15 @@
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\bin\Debug\net6.0\AttachmentUtility.deps.json
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\bin\Debug\net6.0\AttachmentUtility.dll
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\bin\Debug\net6.0\AttachmentUtility.pdb
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\bin\Debug\net6.0\AttachmentDomain.dll
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\bin\Debug\net6.0\AttachmentDomain.pdb
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.dll
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\refint\AttachmentUtility.dll
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\AttachmentUtility.pdb
+C:\Users\LENOVO\source\repos\FileUploadWebApi\AttachmentUtility\obj\Debug\net6.0\ref\AttachmentUtility.dll

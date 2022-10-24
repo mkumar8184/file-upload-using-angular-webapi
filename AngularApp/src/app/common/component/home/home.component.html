@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary p-3">
+ <h2> <a class="navbar-brand" href="#">Angular Attachment Component</a></h2>
+  
+
+</nav>
+<div class="container-fluid py-3">
+  <div class="row my-3">
+    <div class="col">
+   <ul>
+    <li>
+     Common attachment component ,which can be pluged in any other component</li>
+     <li>  Call web api to upload file and save in database/azure storage/local directory</li>
+     <li> Attachment component behaves based on input parameter 
+      <li> fileName,single,fileType , IsMandatory ,resize ,allowed file types gives you uploaded file details as output parameter</li>
+      <li> Using bootstrap css</li>
+      <li> Can be customized totally based on requiremnt  </li>
+      <li> Download(from web url/By fileName from azure) ,delete</li>
+      <li>Using normal input file control , css can be customized based on requirement</li>
+      <li>Easy to manage and change code</li>
+      <li>Get File Information from child to parent component</li>
+    </ul>
+    </div>
+  </div>
+  <div class="container-fluid py-3">
+    <div class="row my-3">
+      <div class="col">
+    <label>Attachment </label>
+    <app-common-attachment
+    
+      [hideTitle]="false"
+      [isSingle]="isSingle"
+      (attachment)="setAttachmentId($event)"
+      FileName="Profile Picture "
+      [FileTypeId]="FileTypeId"
+      [allowedExtentions]="['jpg', '.jpeg', 'png']"
+      [resizeFile]="false"
+   
+    ></app-common-attachment>
+  </div>
+</div>
+</div>

@@ -1,0 +1,50 @@
+<div class="border col-md-12 p-2 bg-ligh">
+  <div class="form-group mb-0">
+    <label class="col-md-12 pl-0 {{ fontSize }}" [hidden]="hideTitle">
+      {{ FileName }}
+    </label>
+
+    <label for="file" class="file btn btn-outline-primary file-btn">
+
+      <i class="bi bi-cloud-upload-fill"></i>
+      Choose {{FileName}}
+
+      <input type="file" id="file" (change)="onUpload($event.target)" [disabled]="loading" />
+      <span class="spinner-border spinner-border-sm ml-2" *ngIf="loading" role="status" aria-hidden="true"></span>
+    </label>
+
+    <div>
+      <span class="text-secondary">{{fileName}}</span>
+
+    </div>
+
+    <i class="fa fa-spinner fa-spin float-right mt-2 text-info fa-2x" *ngIf="loading">
+    </i>
+    <div *ngIf="errorMessage && errorMessage.length > 0" [innerHTML]="errorMessage" class="text-danger"></div>
+
+  </div>
+  <table class="table table-striped mt-2">
+    <tbody>
+      <tr *ngFor="let file of filesList; let i = index">
+        <td class="pl-1 align-middle f-14">
+          <img class="rounded-circle" style="width: 50px; height: 50px;" [src]="file?.fileBase64String" />
+          {{ file?.fileName }}
+        </td>
+        <td class="float-rightmt-1">
+          <a href="javascript:" class="btn f-14 btn-icon text-danger mr-1" (click)="DeleteFile(file?.id, i)"
+            [hidden]="hideDelete">
+            <i class="bi bi-x-circle fs-2" *ngIf="!loadingDelete"></i>
+            <span class="spinner-border spinner-border-sm ml-2" *ngIf="loadingDelete" role="status" aria-hidden="true"></span>
+           
+          </a>          
+
+          <a href="javascript:" class="btn btn-icon text-primary btn-sm" (click)="downloadFile(file)">
+            <i class="bi bi-cloud-download fs-2" *ngIf="!loadingDownload"></i>
+            <span class="spinner-border spinner-border-sm ml-2" *ngIf="loadingDownload" role="status" aria-hidden="true"></span>
+            
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
